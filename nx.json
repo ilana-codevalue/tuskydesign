@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "targetDefaults": {
+    "typecheck": {
+      "dependsOn": [
+        "^typecheck"
+      ],
+      "cache": true
+    },
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true
+    },
+    "lint": {
+      "dependsOn": [
+        "^lint"
+      ],
+      "cache": true
+    }
+  },
+  "defaultBase": "main",
+  "nxCloudAccessToken": "OWFjNDgxODItNTBkNS00YThiLWE0NjEtYTZkZjZlZmVlY2IxfHJlYWQtd3JpdGU="
+}
